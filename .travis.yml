@@ -1,9 +1,0 @@
-language: go
-
-go:
-  - 1.7
-  - master
-install:
-  # Add Godeps dependencies to GOPATH and PATH
-  - export GOPATH="${TRAVIS_BUILD_DIR}:$GOPATH"
-  - export PATH="${TRAVIS_BUILD_DIR}:$PATH"
