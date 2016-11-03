@@ -3,3 +3,4 @@ language: go
 go:
   - 1.7
   - master
+go_import_path: GOPATH/src/github.com/user/repo
