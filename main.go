@@ -26,6 +26,7 @@ func main()  {
 	iris.Use(recovery.New())
 	iris.Static("/js","./static/js",1)
 	iris.Static("/img","./static/img",1)
+	iris.Config.Gzip = true
 
 	iris.Get("/", func(ctx *iris.Context) {
 		ctx.Render("client.html", clientPage{"Chat test", ctx.HostString()})
