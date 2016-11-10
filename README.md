@@ -1,4 +1,5 @@
 # Ha! server
+![hachat](https://github.com/atjoneswang/hachatios/raw/master/hachat/Assets.xcassets/AppIcon.appiconset/Icon-60%402x.png)
 
 使用Go語言開發，用iris web framework開發使用websocket的即時聊天服務
 
